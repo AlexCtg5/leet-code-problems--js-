@@ -12,6 +12,7 @@ var pivotIndex = function (nums) {
     }
     leftSum += nums[i];
   }
+  return -1;
 };
 
 console.log(pivotIndex(nums));
